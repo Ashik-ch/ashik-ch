@@ -1,0 +1,8 @@
+{
+  "name": "reactproject",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "create-react-app": "^5.0.1"
+  }
+}
