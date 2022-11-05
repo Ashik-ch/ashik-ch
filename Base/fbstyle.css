@@ -1,0 +1,106 @@
+
+#bdy{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#fullbody{
+    height: 770px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+
+    
+}
+#header{
+    background: #1877f2;
+    height: 65px;
+    width: 100%;
+    padding-top: 38px;
+
+
+}
+#header-facebook{
+    font-size: 45.5px;
+    margin-left: 129px;
+    font-weight: bold;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: bold;
+    padding-top: 37px;
+    text-decoration: none;
+
+}
+#header-login{
+    color: white;
+    margin-top: -60px;
+    margin-left: 850px;
+    font-size: 13px;
+}
+
+#login-button{
+    background:#1877f2;
+    color: #fff;
+    box-shadow: 0px 0px 3px 0px #fff;
+    border: 0px;
+}
+
+#body{
+    background: whitesmoke;
+    height: 520px;
+    width: 100%;
+    padding-top: 150px
+}
+
+#facebook{
+    color: #1877f2;
+    margin-left: 200px;
+    font-size: 55px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+#login{
+    width: 350px;
+    height: 410px;
+    background: white;
+    /* border: 2px solid;
+    border-color: coral; */
+    margin-left: 700px;
+    margin-top: -132px;
+}
+
+#createh2{
+    font-size: 24.5px;
+    margin-left: 50px;
+    padding-top: 37px;
+}
+
+
+
+#signup{
+    color: white;
+    width: 100px;
+    height: 25px;
+    background: green;
+    border: none;
+    border-radius: 10px;
+    margin-left: 32px;
+}
+ 
+ #form{
+    padding: 55px;
+ }
+
+#footer{
+    background: rgb(78, 75, 75);
+    height: 130px;
+    width: 100%;
+}
+#footer-para{
+    text-align: center;
+    color: rgb(138, 136, 136);
+}

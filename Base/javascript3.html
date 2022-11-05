@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript coloring screen</title>
+    <style>
+        #button{
+            padding-left: 473px;
+            padding-top: 20px;
+        }
+
+        #screen{
+            width: 500px;
+            height: 500px;
+            border: 2px solid;
+            margin-top: 40px;
+            margin-left: 400px;
+
+        }
+
+    </style>
+
+
+</head>
+<body id="body">
+    
+    <div id="screen">
+    </div>
+
+    <div id="button">
+        <button onclick="display('green')">Green</button>
+        <button onclick="display('red')">Red</button>
+        <button onclick="display('yellow')">Yellow</button>
+        <button onclick="display('black')">Black</button>
+        <button onclick="display('blue')">Blue</button>
+        <button onclick="display('linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,107,1) 100%, rgba(0,212,255,1) 100%')">Grey</button>
+
+
+    <script>
+        function display(col)
+        {
+            document.getElementById("screen").style.background=col
+
+        }
+
+
+
+    </script>
+
+
+    </body>
+    </html>

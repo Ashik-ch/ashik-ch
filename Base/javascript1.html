@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+
+    <button onclick="show()">Click Me </button>       <!-- //calling while clicking  -->
+    <h1 onclick="add()">ADD</h1>
+    <button onclick="check()">even or odd </button>
+    <button onclick="print()">Print numbers </button>
+
+
+    <script>    
+        function display(){                    //function defining
+            console.log("Haai displayed ")
+        }
+        display()                               //calling
+
+
+        function show(){
+            console.log("Button clicked")
+            
+        }
+        function add(){
+            var a=2
+            var b=3
+            var sum=a+b
+            console.log("sum of numbers is : "+sum)
+        }
+        function check(){
+            var b=33
+            if(b%2==0){                              //if
+                console.log(b  +" is even")
+            }
+            else{
+                console.log(b  +"is odd")
+            }
+
+        }
+        function print(){                           //for
+            for(var i=0;i<10;i++)
+            console.log(i)
+        }
+
+    </script>
+
+
+</body>
+</html>

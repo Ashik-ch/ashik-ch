@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript core</title>
+</head>
+<body>
+    <label>enter the data </label>
+    <input type="text" id="textid">
+    <button onclick="show()">click here</button>
+    <h1 id="reprint"></h1>
+
+    <script>
+    function show()
+    { 
+        var input= document.getElementById("textid").value
+        document.getElementById("reprint").innerHTML=input
+
+        if(input==""){
+        alert("Enter  any Data "+ input) }
+    }
+
+
+
+
+    </script>
+
+
+
+    </body>
+    </html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link href="calculater.css" type="text/css" rel="stylesheet">   <!--  css connecting -->
+    <script src="calculaterSricpt.js"></script>                     <!--  javascript connecting -->
+
+
+</head>
+<body>
+    <div id="body">
+
+        <div >
+            <input  id="input" type="text" placeholder=" Digits">
+        </div>
+        <div>
+            <div class="buttons">
+                <button onclick="clicked(7)" class="num">7</button>
+                <button onclick="clicked(8)" class="num">8</button>
+                <button onclick="clicked(9)" class="num">9</button>
+                <button onclick="clicked('/')" class="num">/</button>
+            </div>
+            <div class="buttons">
+                <button onclick="clicked(4)" class="num">4</button>
+                <button onclick="clicked(5)" class="num">5</button>
+                <button onclick="clicked(6)" class="num">6</button>
+                <button onclick="clicked('*')" class="num">*</button>
+            </div>
+            <div class="buttons">
+                <button onclick="clicked(1)" class="num">1</button>
+                <button onclick="clicked(2)" class="num">2</button>
+                <button onclick="clicked(3)" class="num">3</button>
+                <button onclick="clicked('-')" class="num">-</button>
+            </div>
+            <div class="buttons">
+                <button onclick="clearDisplay('')" class="num">C</button>
+                <button onclick="clicked(0)" class="num">0</button>
+                <button onclick="equalclicked('=')" class="num">=</button>
+                <button onclick="clicked('+')" class="num">+</button>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
