@@ -1,0 +1,295 @@
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+.dropdown-item{
+align-items: center;
+color: red;
+}
+
+#logo{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: montserrat;
+}
+#home{
+    margin-left: 430px;
+}
+#webbody-left{
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.iam{
+        font-family: cursive;
+        margin-left: 155px;
+        margin-top: 110px;
+        font-weight: bolder;
+    }
+.ashik{
+    font-family: auto;
+    margin-left: 155px;
+    margin-top: 4px;
+    font-weight: bolder;
+    font-size: 62px;
+}
+#personal{
+
+    font-family: auto;
+    margin-left: 155px;
+    margin-top: -42px;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: crimson;
+}
+
+.btn{
+    background: crimson;
+    color: white;
+    
+}
+#btndiv{
+    margin-left: 182px;
+    margin-top: 27px;
+}
+.btn{
+    width: 131px;
+}
+#details{
+    margin: 73px;
+    margin-left: 0rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #541d28;
+    text-align: left;
+    width: 100%;
+    float: left;
+    background-color: #f7a5ab;
+    height: 340px;
+}
+#address{
+    margin-left: 64px;
+    margin-top: -9px;
+    color: white;
+}
+#contact{
+    margin-left: 62px;
+    margin-bottom: 22px;
+    padding-top: 13px;
+    color: white;
+
+}
+#webbody-right{
+    width: 50%;
+    height: 740px;
+    background: crimson;
+    box-shadow: 2px 4px 5px 2px;
+    float: left;
+}
+
+.png{
+    height: 760px;
+    border-style: none;
+    padding-left: 40px;
+    margin-top: 61px;
+    margin-left: 92px;
+}
+
+.abt-section{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    float: left;
+
+}
+
+#abt{
+    color: #dc143c;
+}
+#about{
+    padding-top: 38px;
+    margin-left: 500px;}
+#abouts{
+    float: left;
+    padding-top: 0px;
+    margin-top: 17px;
+    margin-bottom: 1rem;
+    margin-left: 116px;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+
+.btn2{
+    border-radius: 2px;
+}
+
+#edu{
+    color: #dc143c;
+    text-align: center;
+}
+#skill{
+    color: #dc143c;
+}
+#ug{
+    float: left;
+}
+#pg{
+    float: left;
+}
+#hss{
+    float: left;
+}
+
+.graduation{
+    color: #f7a5ab;
+    margin-left: 113px;
+}
+
+.btn2{
+    margin-left: 119px;
+
+}
+
+
+#show1{
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 5px;
+    margin-left: 7px;
+    font-size: 17px;
+    margin-top: 10px;
+    display: none;
+    margin-left: 119px;
+
+}
+
+#show2{
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 5px;
+    margin-left: 7px;
+    font-size: 17px;
+    margin-top: 10px;
+    display: none;
+    margin-left: 119px;
+}
+#show3{
+
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 5px;
+    margin-left: 7px;
+    font-size: 17px;
+    margin-top: 10px;
+    display: none;
+    margin-left: 119px;
+}
+
+
+img {
+    height: 100px;
+    vertical-align: middle;
+    border-style: none;
+    padding-left: 40px;
+    margin-top: 28px;
+    
+
+}
+
+.dropbtn{
+    padding: 10px;
+    width: 175px;
+    height: 75px;
+}
+
+
+.dropbtn {
+    background-color: #dc143c;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    /* position: relative; */
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    /* position: absolute; */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #f7a5ab;
+  }
+  .bar{
+    width: 175px;
+    height: 30%;
+    background: gray;
+    margin-top: 40px;
+  }
+
+  #innerbar1{
+    width: 100%;
+    height: 20px;
+    background: #f7a5ab;  
+    
+  }
+  #innerbar2{
+    width: 95%;
+    height: 20px;
+    background: #f7a5ab;   
+  }
+
+  #innerbar3{
+    width: 50%;
+    height: 20px;
+    background: #f7a5ab;   
+  }
+#innerbar4{
+    width: 60%;
+    height: 20px;
+    background: #f7a5ab;   
+  }
+
+#innerbar5{
+    width: 40%;
+    height: 20px;
+    background: #f7a5ab;   
+  }
+
+#innerbar6{
+    width: 30%;
+    height: 20px;
+    background: #f7a5ab;   
+  }
+
+
+ #expertis{
+    color: #dc143c;
+    margin-top: 52px;
+    margin-bottom: 30px;
+}
